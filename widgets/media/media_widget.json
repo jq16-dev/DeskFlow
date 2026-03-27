@@ -1,0 +1,22 @@
+{
+  "name": "Media Now Playing",
+  "widget_type": "media",
+  "position": {"x": 80, "y": 400},
+  "size": {"width": 360, "height": 130},
+  "update_interval": 2000,
+  "layer": "always_on_top",
+  "opacity": 1.0,
+  "show_art": true,
+  "show_controls": true,
+  "default_album": "default_album.png",
+  "style": {
+    "background_type": "glass",
+    "background_color": [12, 12, 20, 230],
+    "border_radius": 14,
+    "border_width": 1,
+    "border_color": "#ffffff12",
+    "font_family": "Segoe UI",
+    "font_size": 13
+  },
+  "elements": []
+}

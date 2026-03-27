@@ -1,0 +1,17 @@
+# DeskFlow 2026 — Python Requirements
+# Install with: pip install -r requirements.txt
+
+# Core
+PySide6>=6.6.0
+psutil>=5.9.0
+requests>=2.31.0
+
+# Media Controller (Windows audio session detection)
+pycaw>=20230407
+
+# Build (optional — only needed for .exe packaging)
+pyinstaller>=6.0.0
+
+# Optional extras
+# pynvml>=11.5.0        # NVIDIA GPU stats (gpu widget)
+# backports.zoneinfo    # Python < 3.9 timezone support
